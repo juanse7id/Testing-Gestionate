@@ -22,7 +22,7 @@ describe("Colaborador 1 Test", () => {
     clickAndWait('#btnIngresar', 500);
   });
 
-  it("Paseo x app", () => {
+  it("Paseo x app y creacion de novedades", () => {
     const tabs = ['#mat-tab-label-1-1', '#mat-tab-label-0-1', '#mat-tab-label-0-2', '#mat-tab-label-0-0', '#mat-tab-label-1-0'];
     tabs.forEach((tab) => {
       clickAndWait(tab, 500);
